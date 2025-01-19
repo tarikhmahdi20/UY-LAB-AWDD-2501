@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+}
+
+.topbar {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+nav {
+    background-color: #007BFF;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #0056b3;
+}
+
+.slider {
+    width: 100%;
+    height: 300px;
+    background: url('https://scontent.fdac11-2.fna.fbcdn.net/v/t39.30808-6/473246908_122156486474284813_895584254447728291_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=2285d6&_nc_eui2=AeFfruc665ZFh4igk3so5taKX4BH7q7QKGBfgEfurtAoYC80p4TjdqKaqcBFCK-LtY7ILBCf81MyvzEcmfpjA04X&_nc_ohc=DtMD0f3HYQYQ7kNvgFOPOFf&_nc_oc=AdgwTMaAZtvdic_0AR3haCmRQDDwwt85uEjtQg5zHuWiZ6SQvKUfmyh79CrCHSeUBGA&_nc_zt=23&_nc_ht=scontent.fdac11-2.fna&_nc_gid=Ag-PR0G70g_f0C4GxzcZplj&oh=00_AYDm-D_7hmprRvLk1ND9ZTbZ1wBk7t5agGpLimZaTNGOyw&oe=67930CD4') no-repeat center center/cover;
+}
+
+.section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.about {
+    background-color: #f9f9f9;
+}
+
+.contact {
+    background-color: #f1f1f1;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.section h2 {
+    color: #007BFF;
+    margin-bottom: 1rem;
+}
